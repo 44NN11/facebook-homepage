@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: white;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 120px;
+    min-height: 500px;
+    background-color: rgb(240, 242, 245);
+
+}
+.left-content {
+    flex-basis: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-content img {
+    width: 320px;
+}
+.left-content p {
+    font-size: 26px;
+    padding-left: 7%;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 490px;
+
+}
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 0px 20px;
+    margin: 80px auto 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 41px -13px #000000; 
+    box-shadow: 0px 0px 41px -13px #000000;
+    padding: 20px 20px;
+}
+.log-in-form input {
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: rgb(226, 224, 220);
+}
+.log-in-form a {
+    align-self: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.login  {
+    align-self: center;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.greenbutton  {
+    align-self: center;
+    background-color: #1ccf49;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.create-page {
+    display: flex;
+    justify-content: center;
+}
+.create-page a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.create-page p {
+    color: black;
+    font-size: 14px;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    
+}
+.languages p  {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(232, 233, 235);
+}
+
+.languages p a {
+    text-decoration: none;
+    color: slategray;
+    padding: 0px 5px;
+}
+.languages p a:hover {
+    text-decoration: underline;
+    color: slategray;
+    padding: 0px 5px;
+}
